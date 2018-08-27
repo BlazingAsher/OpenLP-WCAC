@@ -1,0 +1,10 @@
+﻿  pptviewlib.cpp
+d:\david hui\documents\google drive\comp sci\python\openlp\trunk\openlp\plugins\presentations\lib\pptviewlib\pptviewlib.cpp(111): warning C4477: 'wprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'HWND'
+d:\david hui\documents\google drive\comp sci\python\openlp\trunk\openlp\plugins\presentations\lib\pptviewlib\pptviewlib.cpp(338): warning C4477: 'fprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type '__time64_t'
+  d:\david hui\documents\google drive\comp sci\python\openlp\trunk\openlp\plugins\presentations\lib\pptviewlib\pptviewlib.cpp(338): note: consider using '%llu' in the format string
+  d:\david hui\documents\google drive\comp sci\python\openlp\trunk\openlp\plugins\presentations\lib\pptviewlib\pptviewlib.cpp(338): note: consider using '%I64u' in the format string
+     Creating library D:\David Hui\Documents\Google Drive\Comp Sci\Python\OpenLP\trunk\openlp\plugins\presentations\lib\pptviewlib\Release\pptviewlib.lib and object D:\David Hui\Documents\Google Drive\Comp Sci\Python\OpenLP\trunk\openlp\plugins\presentations\lib\pptviewlib\Release\pptviewlib.exp
+  Generating code
+  All 33 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  pptviewlib.vcxproj -> D:\David Hui\Documents\Google Drive\Comp Sci\Python\OpenLP\trunk\openlp\plugins\presentations\lib\pptviewlib\Release\pptviewlib.dll
