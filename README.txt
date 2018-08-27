@@ -22,7 +22,7 @@ Modifications
 - Changed support links and email to mine
 
 Install Instructions
-==========
+====================
 
 1. Run setup.bat in the "setup" directory
 2. All done!
