@@ -21,14 +21,16 @@ Modifications
 - Added option to hide the author of a song
 - Changed support links and email to mine
 
-WCAC Notes
+Install Instructions
 ==========
 
-1. You must install Python 3.4.4
-2. Required modules (install via pip): sqlalchemy alembic chardet beautifulsoup4 Mako nose mock websockets asyncio waitress six webob requests
-3. Install the following whl files with pip (located in resources/dependencies/wheel): lxml, PyICU, pyodbc
-4. Install PyQt5 (located in resources/dependencies)
-5. For PowerPoint support, install pypiwin32 version 219 (pip install pypiwin32==219)
-6. For MySQL support, install mysql-connector-python (not needed)
-7. For PostreSQL support, install psycopg2 (not needed)
-8. All done!
+1. Run setup.bat in the "setup" directory
+2. All done!
+
+Creating a Shortcut to Launch OpenLP Silently
+=============================================
+To launch OpenLP silently, follow the steps below:
+1. Create a shortcut with target: "C:\Windows\System32\wscript.exe invisible.vbs start-openlp.bat"
+2. Open the properties of the shortcut and change the working directory to the directory you extracted OpenLP
+3. Change the icon to the one found in resources/images
+4. All done!

@@ -1,4 +1,14 @@
 IF NOT EXIST C:\Python34 GOTO NOWINDIR
+IF NOT EXIST ..\env GOTO NOENV
+
+call ..\env\Scripts\activate.bat
+python ../openlp.py
+goto:eof
+
+:NOWINDIR
+echo Python 3.4.4 is not installed!
+
+:NOENV
 C:\Python34\python.exe -m pip install --user virtualenv
 C:\Python34\python.exe -m virtualenv ..\env
 
@@ -12,9 +22,3 @@ pip install ../resources/dependencies/whl/pyodbc-4.0.24-cp34-cp34m-win32.whl
 
 robocopy .\PyQt5 ..\env\Lib\site-packages\PyQt5 /s /e 
 copy .\sip.pyd ..\env\Lib\site-packages /y
-
-python ../openlp.py
-
-:NOWINDIR
-echo Python 3.4.4 is not installed!
-pause
