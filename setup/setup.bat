@@ -7,6 +7,7 @@ goto:eof
 
 :NOWINDIR
 echo Python 3.4.4 is not installed!
+goto:eof
 
 :NOENV
 C:\Python34\python.exe -m pip install --user virtualenv
