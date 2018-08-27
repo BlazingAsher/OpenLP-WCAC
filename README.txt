@@ -14,6 +14,13 @@ OpenLP wiki::
 
 Thanks for downloading OpenLP!
 
+Modifications
+=============
+
+- Packaged WCAC logo with the program
+- Added option to hide the author of a song
+- Changed support links and email to mine
+
 WCAC Notes
 ==========
 
