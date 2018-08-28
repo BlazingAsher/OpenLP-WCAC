@@ -240,13 +240,13 @@ def check_latest_version(current_version):
     settings.endGroup()
     if last_test != this_test:
         if current_version['build']:
-            req = urllib.request.Request('http://www.openlp.org/files/nightly_version.txt')
+            req = urllib.request.Request('https://version.davidhui.ca/openlpwcac/version.txt')
         else:
             version_parts = current_version['version'].split('.')
             if int(version_parts[1]) % 2 != 0:
-                req = urllib.request.Request('http://www.openlp.org/files/dev_version.txt')
+                req = urllib.request.Request('https://version.davidhui.ca/openlpwcac/version.txt')
             else:
-                req = urllib.request.Request('http://www.openlp.org/files/version.txt')
+                req = urllib.request.Request('https://version.davidhui.ca/openlpwcac/version.txt')
         req.add_header('User-Agent', 'OpenLP/%s %s/%s; ' % (current_version['full'], platform.system(),
                                                             platform.release()))
         remote_version = None

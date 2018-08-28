@@ -618,9 +618,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow, RegistryProperties):
         :param version: The Version to be displayed.
         """
         log.debug('version_notice')
-        version_text = translate('OpenLP.MainWindow', 'Version %s of OpenLP is now available for download (you are '
+        version_text = translate('OpenLP.MainWindow', 'Version %s of OpenLP WCAC is now available for download (you are '
                                  'currently running version %s). \n\nYou can download the latest version from '
-                                 'http://openlp.org/.')
+                                 'https://github.com/BlazingAsher/OpenLP-WCAC')
         QtWidgets.QMessageBox.question(self, translate('OpenLP.MainWindow', 'OpenLP Version Updated'),
                                        version_text % (version, get_application_version()[u'full']))
 
