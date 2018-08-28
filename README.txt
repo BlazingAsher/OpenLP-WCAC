@@ -20,15 +20,14 @@ Modifications
 - Packaged WCAC logo with the program
 - Added option to hide the author of a song
 - Changed support links and email to mine
+- Changed update url to mine
 
-Install Instructions
-====================
+Install Instructions (if not using the installer)
+=================================================
 
 1. Run setup.bat in the "setup" directory
 2. All done!
 
-Creating a Shortcut to Launch OpenLP Silently
-=============================================
 To launch OpenLP silently, follow the steps below:
 1. Create a shortcut with target: "C:\Windows\System32\wscript.exe invisible.vbs start-openlp.bat"
 2. Open the properties of the shortcut and change the working directory to the directory you extracted OpenLP
